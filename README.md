@@ -4,7 +4,7 @@ This is a simple education website that uses HTML, CSS, and JavaScript.This webp
 
 check out:-
 
-##The website is built using the following technologies:
--HTML
--CSS
--JavaScript
+#The website is built using the following technologies:
+- HTML
+- CSS
+- JS
