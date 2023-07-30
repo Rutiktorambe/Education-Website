@@ -12,6 +12,6 @@ This is a simple education website that uses HTML, CSS, and JavaScript.This webp
 
 
 # Screenshot :
-![Education-Website](https://github.com/Rutiktorambe/Education-Website/assets/114429614/e554fff3-5470-4509-afa1-933cb6c7df74)
+![Education-Website](https://rutiktorambe.github.io/Education-Website/)
 
 ## Project @  ibase Technologies LLP .
