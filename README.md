@@ -4,7 +4,6 @@ This is a simple education website that uses HTML, CSS, and JavaScript.This webp
 
 ## 🔗➡ [demo](https://rutiktorambe.github.io/Weather-App)
 
-# Project @  ibase Technologies LLP .
 
 # The website is built using the following technologies:
 - HTML
