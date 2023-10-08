@@ -2,7 +2,7 @@
 
 This is a simple education website that uses HTML, CSS, and JavaScript.This webpage have header,Engineering Courses,Director info,admission form,Training Programs and Placement Page
 
-## 🔗➡ [demo](https://rutiktorambe.github.io/Education-Website/)
+## 🔗➡ [demo](https://education-website-sggs-rutik.netlify.app/)
 
 
 # The website is built using the following technologies:
