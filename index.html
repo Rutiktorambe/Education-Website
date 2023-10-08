@@ -1,357 +1,309 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Collage</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <!-- Navbar -->
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <h3>Collage<span>X</span></h3>
-        </div>
-        <div class="nav-links">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#Engineering-Branch">Branches</a></li>
-            <li><a href="#director">Director</a></li>
-            <li><a href="#Addmission">Admission</a></li>
-            <li><a href="#training">Trainings</a></li>
-            <li><a href="placement.html">Placement</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/sggs-logo.jpeg" class="logo" alt="">
 
-    <div class="empty"> <span></span></div>
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 
-<!-- Banner -->
-      <div id="home">
-        <div class="header">
-          <div class="wrap">
-            <div id="arrow-left" class="arrow"></div>
-            <div id="slider">
-              <div class="slide slide1">
-                <div class="slide-content">
-                  <span>Think</span>
-                </div>
-              </div>
-              <div class="slide slide2">
-                <div class="slide-content">
-                  <span>Lern</span>
-                </div>
-              </div>
-              <div class="slide slide3">
-                <div class="slide-content">
-                  <span>Build</span>
-                </div>
-              </div>
-            </div>
-            <div id="arrow-right" class="arrow"></div>
-          </div>
-        </div>
-      </div>
-  <hr class="center-line">
-<!-- Branch -->
-        <div id="Engineering-Branch">
-
-          <div class="centered-heading">
-            <h2>Engineering Courses</h2>
-            <h4>Explore the fields of Innovation</h4>
-          </div>
-
-          <div class="Branches">
-
-            <div class="branch-card">
-              <img src="assets/Branches/Electronics.jpeg" width="100px" alt="Branch 1">
-              <h3>Electronics Engineering</h3>
-              <p>Electronic engineering encompasses the study and application of electronic devices, circuits, and systems,
-                utilizing principles of physics and mathematics to design, develop, and optimize technologies.
-                It involves fields like telecommunications, signal processing, microelectronics, embedded systems, and
-                control systems, shaping the modern world through innovation and problem-solving.</p>
-            </div>
-
-            <div class="branch-card">
-              <img src="assets/Branches/software engineer .png" width="100px" alt="Branch 2">
-              <h3>Software Engineering</h3>
-              <p>Software engineering involves designing, developing, and maintaining software systems using programming languages
-                and methodologies, ensuring functionality, reliability, and scalability to meet user needs. It encompasses software
-                design, coding, testing, and debugging, with an emphasis on creating efficient, robust, and user-friendly applications
-                and solutions for diverse industries.</p>
-            </div>
-
-            <div class="branch-card">
-              <img src="assets/Branches/nuclear .png" width="100px" alt="Branch 3">
-              <h3>Nuclear Engineering</h3>
-              <p>Nuclear engineering is not a recognized or standard engineering discipline. It may refer to a misunderstanding or ambiguity
-                in a given context. Please provide more information or clarify the specific field of engineering you would like to know about,
-                and I'll be happy to help!</p>
-            </div>
-
-            <div class="branch-card">
-              <img src="assets/Branches/Civil.png" width="100px" alt="Branch 4">
-              <h3>Civil Engineering</h3>
-              <p>Civil engineering is a vital branch of engineering that focuses on designing, constructing, and maintaining essential
-                infrastructure and public works. Civil engineers are responsible for projects like roads, bridges, buildings, and more.
-                They ensure that these structures are safe, durable, and environmentally sustainable. By
-                applying their expertise in mathematics, physics, and materials science, civil engineers contribute significantly to
-                enhancing society's quality of life and promoting economic development through the creation of functional and efficient
-                infrastructure.</p>
-            </div>
-          </div>
-
-          <div class="Branches">
-
-            <div class="branch-card">
-              <img src="assets/Branches/Electrical .png" width="100px" alt="Branch 5">
-              <h3>Electrical Engineering</h3>
-              <p>Electrical engineering is a branch of engineering that deals with the study and application 
-                of electricity, electronics, and electromagnetism. It encompasses designing, developing, 
-                testing, and maintaining electrical systems, circuits, and devices. Electrical engineers work
-                across various industries, from power generation and distribution to telecommunications and 
-                electronics manufacturing.</p>
-            </div>
-
-            <div class="branch-card">
-              <img src="assets/Branches/Chemicals.jpg" width="100px" alt="Branch 6">
-              <h3>Chemical Engineering</h3>
-              <p>Chemical engineering is a field of engineering that combines principles of chemistry, physics,
-                and mathematics to design and optimize processes for the production of chemicals, materials, 
-                and energy. Chemical engineers develop methods to transform raw materials into valuable products,
-                while considering safety, cost efficiency, and environmental sustainability. They work in diverse
-                industries, including pharmaceuticals, petroleum refining, and food processing.</p>
-            </div>
-
-            <div class="branch-card">
-              <img src="assets/Branches/Aeronotical.png" width="100px" alt="Branch 7">
-              <h3>Aeronautical Engineering</h3>
-              <p>Aeronautical engineering is a specialized branch of engineering focused on the design, development, 
-                testing, and production of aircraft and spacecraft. Aeronautical engineers work with aerodynamics, 
-                propulsion systems, materials, and control systems to create efficient, safe, and innovative flying
-                 machines. They play a crucial role in the aviation and aerospace industries, contributing to 
-                 advancements in flight technology and space exploration./p>
-            </div>
-
-            <div class="branch-card">
-              <img src="assets/Branches/Transportation.png" width="100px" alt="Branch 8">
-              <h3>Transportation Engineering</h3>
-              <p>Transportation engineering is a branch of civil engineering that focuses on the planning, design, 
-                and management of transportation systems and infrastructure. Transportation engineers work on various 
-                modes of transportation, including roads, highways, bridges, railways, airports, and public transit
-                 systems. Their goal is to ensure safe, efficient, and sustainable movement of people and goods,
-                  while considering factors like traffic flow, environmental impact, and urban planning.</p>
-            </div>
-          </div>
-          
-        </div>
-
-        
-
- <hr class="center-line">
-
- <!-- About Directors -->
-        <div id="director">
-          <div class="centered-heading">
-            <h2>Honorable Director</h2>
-            <h4>Prof. Dr. Jonny Chaudhuri</h4>
-          </div>
-  
-          <div class="director">
-            <div class="card">
-              <div class="image-container">
-                <img src="assets/Director.jpeg" width="300px" alt="Image">
-              </div>
-              <div class="content-container">
-                <h2>Director</h2>
-                <h4>Prof. Dr. Jonny Chaudhuri</h4>
-                <p>Professor Chaudhuri is the Kamalnayan Bajaj Chair Professor in the Department of Electrical Engineering and was the Professor In-charge of collage X,IIT Winterfall.
-                  He earned his BTech degree from IIT Kharagpur in 1985, MBBS degree from AIIMS, Winterfall, and MSc from the University of Calgary, Canada in 1987.
-                  He completed his PhD from the University of California, San Diego, USA in 1990.
-                  Prof. Chaudhuri has held various administrative positions at IIT Bombay, including Deputy Director (Academic and Infrastructural Affairs), Dean (International Relations),
-                  Head of the Electrical Engineering Department, and Wardenship of Hostels.
-                  Prof. Jonny Chaudhuri works in the area of image processing, computer vision, machine learning, and computational haptics. Some of the areas where he has contributed significantly include - depth recovery
-                  from defocused images, image super-resolution, blind deconvolution, hyper-spectral image visualization, and pattern recognition in remote sensing images. 
-                  In the area of Haptics, his major contribution lies in haptic rendering of point cloud data, kinaesthetic perception, and haptic data communication.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-<hr class="center-line">
-
-<!-- Addmision -->
-      <div id="Addmission">
-        <div class="centered-heading">
-          <h2>Join Us</h2>
-          <h4>Be a part of our institution</h4>
-        </div>
-        
-        <div class="admission">
-          <form class="form">
-            <p class="title">Register</p>
-            <p class="message">Signup now and apply for admission.</p>
-            <div class="flex">
-              <label>
-                <input required="" placeholder="" type="text" class="input">
-                <span>Firstname</span>
-              </label>
-        
-              <label>
-                <input required="" placeholder="" type="text" class="input">
-                <span>Lastname</span>
-              </label>
-            </div>
-        
-            <label>
-              <input required="" placeholder="" type="email" class="input">
-              <span>Email</span>
-            </label>
-        
-            <label>
-              <input required="" placeholder="" type="password" class="input">
-              <span>Password</span>
-            </label>
-            <label>
-              <input required="" placeholder="" type="password" class="input">
-              <span>Confirm password</span>
-            </label>
-            <button class="submit">Submit</button>
-            <p class="signin">Already have an account? <a href="#">Sign in</a></p>
-          </form>
-        </div>
-      </div>      
-
-    <hr class="center-line">
-
-<!-- Training -->
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
 
 
-<div id="training">
-
-  <div class="centered-heading">
-    <h2>Training Programs</h2>
-    <h4>!! Way To Excellence !!</h4>
-  </div>
-
-  <div class="course">
-
-    <a class="card-wrapper" target="_blank" href="">
-      <div class="course-card">
-        <div class="image-div">
-          <img src="assets/course/thumbnail-1.png" alt="Web Dev course image">
-        </div>
-
-        <div class="text-div">
-          <h2 class="course-name">Web Development Training</h2>
-          <hr class="line-break">
-
-          <div class="price-div">
-            <p class="current-price">&#8377;49000</p>
-            <p class="actual-price"><s>&#8377;99999</s></p>
-            <p class="discount">50% off</p>
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a class="card-wrapper" target="_blank" href="">
-      <div class="course-card">
-        <div class="image-div">
-          <img src="assets/course/thumbnail-2.jpg" alt="DSA course image">
-        </div>
-
-        <div class="text-div">
-          <h2 class="course-name">Machine Learning Training</h2>
-          <hr class="line-break">
-
-          <div class="price-div">
-            <p class="current-price">&#8377;49000</p>
-            <p class="actual-price"><s>&#8377;99999</s></p>
-            <p class="discount">50% off</p>
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a class="card-wrapper" target="_blank" href="">
-      <div class="course-card">
-        <div class="image-div">
-          <img src="assets/course/thumbnail-3.jpg" alt="oops course image">
-        </div>
-
-        <div class="text-div">
-          <h2 class="course-name">Internets of Things Training</h2>
-          <hr class="line-break">
-
-          <div class="price-div">
-            <p class="current-price">&#8377;49000</p>
-            <p class="actual-price"><s>&#8377;99999</s></p>
-            <p class="discount">50% off</p>
-          </div>
-        </div>
-      </div>
-    </a>
-
-  </div>
-</div>
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			Enhance Your Future With SGGSIE&T
+		</h2>
+		<p>
+			"Discover the future of engineering education at our college. 
+			We inspire students to innovate, learn, and lead in a dynamic environment, 
+			shaping the next generation of engineering pioneers."
+		</p>
+		<div class="btn">
+			<a href="#features" class="blue">Learn More</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
 
 
-<!-- footer -->
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Awesome Features</h1>
+		<p>Replenish man have thing gathering lights yielding shall you</p>
 
-<footer class="footer-distributed">
-
-			<div class="footer-left">
-
-				<h3>Collage <span> X</span></h3>
-
-				<p class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#Engineering-Branch">Branches</a>
-          <a href="#director">Director</a>
-          <a href="#Addmission">Addmission</a>
-          <a href="#training">Trainings</a>
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Scholorship Facility</h3>
+				<p>
+					One make creepeth, man bearing their a firmament won't great heaven
 				</p>
-
-				<p class="footer-company-name">Company Name © 2015</p>
 			</div>
 
-			<div class="footer-center">
-
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>18 D. Near Demart </span> Seven Kingdom Road,Winterfall</p>
-				</div>
-
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+91 </p>1818181818
-				</div>
-
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="">support@CollageX.com</a></p>
-				</div>
-
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Dell Online Course</h3>
+				<p>
+					One make creepeth, man bearing their a firmament won't great heaven
+				</p>
 			</div>
 
-			<div class="footer-right">
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Global Certification</h3>
+				<p>
+					One make creepeth, man bearing their a firmament won't great heaven
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
 
-				<div class="footer-icons">
-					<a href="https://twitter.com/Rutik_2502"><i class="fa fa-twitter"></i></a>
-					<a href="https://www.linkedin.com/in/rutik-torambe-314230228/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://github.com/Rutiktorambe"><i class="fa fa-github"></i></a>
 
+	<!-- Courses section starts from here -->
+	<section id="course">
+		<h1>Our Popular Courses</h1>
+		<p>Replenish man have thing gathering lights yielding shall you</p>
+
+		<div class="course-box">
+			<div class="courses">
+				<img src="img/c1.jpg" alt="">
+				<div class="details">
+					<span>Updated 21/8/22</span>
+					<h6>JavaScript Beginners Course</h6>
+
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+
+						<span>(239)</span>
+					</div>
 				</div>
-
+				<div class="cost">$49.99</div>
 			</div>
 
-		</footer>
+			<div class="courses">
+				<img src="img/c2.jpg" alt="">
+				<div class="details">
+					<span>Updated 21/8/22</span>
+					<h6>JavaScript Beginners Course</h6>
 
-<script src="scripts.js"></script>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+
+						<span>(239)</span>
+					</div>
+				</div>
+				<div class="cost">$49.99</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/c3.jpg" alt="">
+				<div class="details">
+					<span>Updated 21/8/22</span>
+					<h6>JavaScript Beginners Course</h6>
+
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+
+						<span>(239)</span>
+					</div>
+				</div>
+				<div class="cost">$49.99</div>
+			</div>
+		</div>
+		<div class="btn-Courses">
+			<a href="courses.html" class="More-Courses">More Courses</a>
+		</div>
+	</section>
+	<!-- Courses section ends from here -->
+
+
+	<!-- Registration section starts from here -->
+	<section id="registration">
+		<div class="reminder">
+			<p>Get 100 Online Courses for Free</p>
+			<h1>Registration To Get It</h1>
+
+			<div class="time">
+				<div class="date">18 <br> Days</div>
+				<div class="date">23 <br> Hours</div>
+				<div class="date">06 <br> Minutes</div>
+				<div class="date">58 <br> Seconds</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<h3>Create Free Account NOW!</h3>
+
+			<input type="text" placeholder="Name" name="" id="">
+			<input type="email" placeholder="Email ID" name="" id="">
+			<input type="text" placeholder="Contact Number" name="" id="">
+
+			<div class="btn">
+				<a href="#" class="yellow">Submit Form</a>
+			</div>
+		</div>
+	</section>
+	<!-- Registration section ends from here -->
+
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Community Experts</h1>
+		<p>Replenish man have thing gathering lights yielding shall you</p>
+		<div class="expert-box">
+			<div class="profile">
+				<img src="img/pro1.webp" alt="">
+				<h6>Ema Ernik</h6>
+				<p>Python & Algorithms Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/pro2.webp" alt="">
+				<h6>Jason chua</h6>
+				<p>Data Design Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/pro3.webp" alt="">
+				<h6>Maalik Halper</h6>
+				<p>Full Stack Developer</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/pro4.webp" alt="">
+				<h6>Jennifer Lopez</h6>
+				<p>Design Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Top Products</h3>
+			<li>Manage Reputation</li>
+			<li>Power Tools</li>
+			<li>Managed Website</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Power Tools</h3>
+			<li>Jobs</li>
+			<li>Marketing Service</li>
+			<li>Top Products</li>
+			<li>Manage Reputation</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Power Tools</h3>
+			<li>Managed Website</li>
+			<li>Manage Reputation</li>
+			<li>Top Products</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Guides</h3>
+			<li>Research</li>
+			<li>Experts</li>
+			<li>Managed Website</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>You can trust us. we only send promo offers.</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2022 All rights reserved | This Website is made by <a href="https://www.linkedin.com/in/rutik-torambe-314230228/" target="_blank" style="color: rgb(255, 0, 85); font-weight: 700;">Rutik</a> with love❤️.
+			</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
 </body>
 </html>
