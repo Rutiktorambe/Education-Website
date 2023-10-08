@@ -12,6 +12,7 @@ This is a simple education website that uses HTML, CSS, and JavaScript.This webp
 
 
 # Screenshot :
+---
 ## Home Page:-
 
 ![home](https://github.com/Rutiktorambe/Education-Website/assets/114429614/961ccdeb-a575-4baa-a615-ac14cbc61714)
